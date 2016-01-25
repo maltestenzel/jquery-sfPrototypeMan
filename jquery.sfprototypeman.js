@@ -274,7 +274,7 @@
 		containerClass: "sfPrototypeMan",
 		fieldLabelPattern: /__name__label__/g,
 		fieldNamePattern: /__name__/g,	// Symfony's "protoype_name"
-		allInputsSelector: ":input",
+		allInputsSelector: ":input[name]",
 		addButtonMarkup: "<a href='#' class='addPrototype' />",
 		addButtonText: "Add a %%field%%",
 		rmButtonMarkup: "<a href='#' class='rmElement' />",
