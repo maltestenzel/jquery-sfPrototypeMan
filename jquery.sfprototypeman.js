@@ -247,8 +247,9 @@
 				field = $(field);
 
 				// collecting data currently present inside field
-				var data = $(this._config.allInputsSelector, field).serializeArray(),
+				var data = $(this._config.allInputsSelector, field),
 					newField = this._createField(index);
+
 				/**
 				 * We trust that order of inputs will be identical every time
 				 * field names can not be relied on as they contain the index we change
