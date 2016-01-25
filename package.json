@@ -4,7 +4,7 @@
   "description": "A jQuery plugin extending Symfony 2 generated 'allow_add' HTML(5) forms.",
   "homepage": "https://github.com/wiese/jquery-sfPrototypeMan/",
   "bugs": "https://github.com/wiese/jquery-sfPrototypeMan/issues",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "Gruntfile.js",
   "directories": {
     "test": "test"
